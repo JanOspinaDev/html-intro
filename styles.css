@@ -1,0 +1,32 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.box h1 {
+    border: solid rgb(85, 85, 212);
+    border-radius: 10px;;
+    background-color: rgb(85, 85, 212);
+    color: white;
+    font-weight: bold;
+    padding: 4px;
+    display: inline-block;
+}
+
+.box h2 {
+    border: solid rgb(85, 85, 212);
+    border-radius: 10px;;
+    background-color: rgb(85, 85, 212);
+    color: white;
+    font-weight: bold;
+    padding: 4px;
+    display: inline-block;
+}
+
+td {
+   border: 1px solid black;
+   border-radius: 7px;
+   background-color: rgb(160, 160, 160);
+   color: white;
+   font-weight: bold;
+   padding: 15px;
+}
