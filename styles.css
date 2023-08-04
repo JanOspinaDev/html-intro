@@ -12,6 +12,14 @@
     display: inline-block;
 }
 
+.informacion a {
+    color: grey;
+}
+
+.informacion a:hover {
+    color: rgb(173, 166, 166);
+}
+
 .box h2 {
     border: solid rgb(85, 85, 212);
     border-radius: 10px;;
@@ -29,4 +37,26 @@ td {
    color: white;
    font-weight: bold;
    padding: 15px;
+}
+
+
+.contacto button {
+    border: none;
+    background-color: rgb(85, 85, 212);
+    height: 36px;
+    width: 120px;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: opacity 0.5s;
+}
+
+.contacto button:hover {
+    opacity: 0.8;
+}
+
+.contacto button:active {
+    opacity: 0.6;
 }
